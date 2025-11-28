@@ -4,10 +4,10 @@ metadata:
   name: env-demo
 spec:
   containers:
-    name: nginx
-    image: nginx
-    env:
-    - name: course
-      value: devsecops
-    - name: trainer
-      value: sivakumar
+    - name: nginx
+      image: nginx
+      env:
+        - name: course
+          value: devsecops
+        - name: trainer
+          value: sivakumar
