@@ -6,4 +6,6 @@ spec:
   containers:
     - name: nginx
       image: nljkasjdkljkjklkj
+
+      #	this is for imagePullBackOff error case
       

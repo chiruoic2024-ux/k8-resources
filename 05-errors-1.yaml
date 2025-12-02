@@ -7,3 +7,4 @@ spec:
     - name: almalinux
       image: almalinux:9
       
+      #	This is for crashLoopBackOff error

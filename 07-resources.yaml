@@ -7,11 +7,11 @@ spec:
     - name: nginx
       image: nginx
       resources:
-        requests:
+        requests:  # minimum value 
           memory: 60Mi
           cpu: 100m
           # provide equal or more than requests
-        limits:
+        limits: # maximum value 
           memory: 100Mi
           cpu: 120m
 

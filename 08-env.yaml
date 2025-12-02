@@ -11,3 +11,5 @@ spec:
           value: devsecops
         - name: trainer
           value: sivakumar
+
+#if we maintain the env variables outside of image that is good because we no nood to build the image everytime
