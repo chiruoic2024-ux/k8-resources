@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: service-demo
+  # These labels are used to register the Pod with service
+  #labels should be used same in both pod.yaml and service.yaml otherwise pod will not get register with service
+  labels:
+    project: roboshop
+    # component: frontend
+    # environment: dev
+spec:
+  containers:
+    - name: nginx
+      image: nginx
