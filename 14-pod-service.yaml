@@ -6,8 +6,8 @@ metadata:
   #labels should be used same in both pod.yaml and service.yaml otherwise pod will not get register with service
   labels:
     project: roboshop
-    component: frontend
-    environment: dev
+    # component: frontend
+    # environment: dev
 spec:
   containers:
     - name: nginx
