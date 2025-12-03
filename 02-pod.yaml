@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
-  namespace: roboshop # if we provide namespace here this pod will be created in this namespace else it will create in default namespace
+  namespace: roboshop-ns-development-1 # if we provide namespace here this pod will be created in this namespace else it will create in default namespace
   labels: 
     name: nginx
     project: roboshop
